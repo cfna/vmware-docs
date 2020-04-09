@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000]
+"DriverDesc"="Intel Graphics SVGA 3D"
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS]
+"BaseBoardManufacturer"="Intel Corporation"
+"SystemManufacturer"="Asus, Inc."
+"SystemProductName"="Asus Platform"
