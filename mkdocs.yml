@@ -19,22 +19,17 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    primary: 'blue'
-    accent: 'blue'
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  logo:
-    icon: 'description'
-  feature:
-    tabs: false
+    primary: 'green'
+    accent: 'green'
+#   icon:
+#     logo: 'material/description'
 
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/pddstudio'
-    - type: 'twitter'
-      link: 'https://twitter.com/pdds_'
+# extra:
+#   social:
+#     - icon: 'fontawesome/brands/github-alt'
+#       link: 'https://github.com/pddstudio'
+#     - type: 'fontawesome/brands/twitter'
+#       link: 'https://twitter.com/pdds_'
 
 # page navigation tree
 nav:
@@ -51,16 +46,3 @@ markdown_extensions:
       permalink: true
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
