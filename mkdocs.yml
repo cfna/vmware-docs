@@ -1,0 +1,66 @@
+# general information
+
+site_name: CrossFire West VMWare Setup Instructions
+site_description: Setup instructions to run CrossFire West on a Virtual Machine using VMWare.
+site_author: Patrick Jung
+site_url: 'https://pddstudio.com/crossfire-west-vmware'
+
+repo_name: 'vmware-crossfire-patch'
+repo_url: 'https://github.com/pddstudio/vmware-crossfire-patch'
+
+copyright: 'Copyright &copy; 2020 Patrick Jung'
+
+# confiture build behavior
+docs_dir: pages/
+site_dir: build/
+
+# customizing theme & plugins
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'description'
+  feature:
+    tabs: false
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/pddstudio'
+    - type: 'twitter'
+      link: 'https://twitter.com/pdds_'
+
+# page navigation tree
+nav:
+  - Home: index.md
+  - VMWare Windows Installation (Easy Install/Manual Install): vmware_windows_installation_instructions.md
+  - Virtual Machine Configuration & Registry Patch: virtual_machine_configuration_instructions.md
+  - AFK Bot & Auto Ready Setup Instructions: afk_bot_auto_ready_setup_instructions.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
