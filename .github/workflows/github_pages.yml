@@ -30,7 +30,7 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install -r ./requirements.txt
 
-      - run: mkdocs build
+      - run: mkdocs build --clean
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
