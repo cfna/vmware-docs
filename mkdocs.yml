@@ -34,6 +34,7 @@ theme:
 # page navigation tree
 nav:
   - Home: index.md
+  - Getting Started: getting_started.md
   - VMWare Windows Installation (Easy Install/Manual Install): vmware_windows_installation_instructions.md
   - Virtual Machine Configuration & Registry Patch: virtual_machine_configuration_instructions.md
   - AFK Bot & Auto Ready Setup Instructions: afk_bot_auto_ready_setup_instructions.md
