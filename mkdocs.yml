@@ -37,6 +37,8 @@ nav:
   - Getting Started: getting_started.md
   - VMWare / Virtual Machine:
     - Create a Virtual Machine: vmware/creating_virtual_machine.md
+    - Updating Virtual Machine Config: vmware/vm_configuration.md
+    - Windows Registry Patch for Virtual Machines: vmware/registry_patch.md
   - VMWare Windows Installation (Easy Install/Manual Install): vmware_windows_installation_instructions.md
   - Virtual Machine Configuration & Registry Patch: virtual_machine_configuration_instructions.md
   - AFK Bot & Auto Ready Setup Instructions: afk_bot_auto_ready_setup_instructions.md
