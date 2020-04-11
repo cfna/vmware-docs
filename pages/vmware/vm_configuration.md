@@ -4,6 +4,10 @@ In order to be able to run CrossFire on the Virtual Machine you just created, yo
 
 If your Virtual Machine is still powered on, make sure to turn it off before editing the config file.
 
+!!! tip
+    If you want to copy CrossFire from your Host System make sure to do this before adjusting the configuration.  
+    It seems like adjusting the configuration will break drag-and-drop feature.
+
 ## Adjust your configuration file
 
 Find your Virtual Machines's Configuration file.  
