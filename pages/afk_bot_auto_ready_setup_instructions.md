@@ -1,3 +1,0 @@
-# AFK Bot & Auto Ready Setup Instructions
-
-> TODO: This place is still work in progress...
