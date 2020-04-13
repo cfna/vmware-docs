@@ -21,7 +21,7 @@ This registry patch contains some required values which need to be changed in or
 Once you have the file on your Virtual Machine, simply double-click to execute it.  
 You will see an information and get asked if you want to continue, press `Yes` to apply the registry patch.  
 
-![](../img/registry-patch/registry-editory-warning.png)
+![](../img/registry-patch/registry-editor-warning.png)
 
 !!! tip
     Usually you should be prompted by the Windows System to execute the registry patch as admin.  
@@ -29,7 +29,7 @@ You will see an information and get asked if you want to continue, press `Yes` t
 
 Once the changes applied successfully you're good to go.  
 
-![](../img/registry-patch/registry-editory-import-success.png)
+![](../img/registry-patch/registry-editor-import-success.png)
 
 ## Create the Registry Patch manually
 
@@ -59,7 +59,7 @@ Now select `File -> Save As` and name your file `registry-patch-cf.reg`.
 That's it. Now you can close your editor and search for the `registry-patch-cf.reg` file you just created and double-click to execute it.  
 You will see an information and get asked if you want to continue, press `Yes` to apply the registry patch.  
 
-![](../img/registry-patch/registry-editory-warning.png)
+![](../img/registry-patch/registry-editor-warning.png)
 
 !!! tip
     Usually you should be prompted by the Windows System to execute the registry patch as admin.  
@@ -67,5 +67,5 @@ You will see an information and get asked if you want to continue, press `Yes` t
 
 Once the changes applied successfully you're good to go.  
 
-![](../img/registry-patch/registry-editory-import-success.png)
+![](../img/registry-patch/registry-editor-import-success.png)
 
