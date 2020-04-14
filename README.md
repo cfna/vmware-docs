@@ -1,18 +1,33 @@
-# CrossFire West VMWare Setup Instructions
+# CrossFire West & VMWare Documentation
 
-This repository contains documentation for the full process of setting up a Virtual Machine using VMWare which can run CrossFire West without any restrictions.
+> This repository contains the source code of the CrossFire West & VMWare Documentation.
 
 ## Requirements
 
-Make sure you have downloaded and installed all required programs and files.
+- Python 3
+- pip
 
-- VMWare Workstation Pro (Tested with Pro 15 Trial)
-- Windows 7 ISO (Tested with Home Basic/Home Premium)
+## Building
 
-## Instructions
+The documentation is built via `mkdocs`.  
+Install the project dependencies by running:
 
-The instructions are splitted into separate parts for easier separation.
+```sh
+pip install -r requirements.txt
+```
 
-- [VMWare Windows Installation](./instructions/vmware_windows_installation_instructions.md) (Easy Install / Manual)
-- [Virtual Machine Configuration and Registry Patch](./instructions/virtual_machine_configuration_instructions.md)
-- `TODO` AFK Bot & Auto-Start Setup Instructions
+Once completed you can build the project via:
+
+```sh
+mkdocs build --clean
+```
+
+To run a debug server with hot reload run:
+
+```sh
+mkdocs serve
+```
+
+## License
+
+MIT / CC-BY 4.0
