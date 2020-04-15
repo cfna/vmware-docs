@@ -36,7 +36,7 @@ nav:
   - Home: index.md
   - Welcome: welcome.md
   - Getting Started: getting_started.md
-  - VMWare / Virtual Machine:
+  - VMWare Guides:
     - Creating a Virtual Machine: vmware/creating_virtual_machine.md
     - Updating Virtual Machine Config: vmware/vm_configuration.md
     - Windows Registry Patch for Virtual Machines: vmware/registry_patch.md
