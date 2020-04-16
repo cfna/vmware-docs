@@ -42,6 +42,7 @@ nav:
     - Windows Registry Patch for Virtual Machines: vmware/registry_patch.md
   - CrossFire Guides:
     - AFK Bot & Auto Ready Setup Instructions: crossfire/vm_afk_bot_instructions.md
+  - Tested Versions: supported_versions.md
 
 
 markdown_extensions:
