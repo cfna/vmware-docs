@@ -22,7 +22,7 @@ theme:
     primary: 'green'
     accent: 'green'
   icon:
-    logo: material/description
+    #logo: material/description
     repo: fontawesome/brands/github-alt
 
 extra:
