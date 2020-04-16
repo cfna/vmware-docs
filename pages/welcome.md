@@ -1,18 +1,24 @@
 # CrossFire West VMWare Setup Instructions
 
-This repository contains documentation for the full process of setting up a Virtual Machine using VMWare which can run CrossFire West without any restrictions.
+This documentation shows in a "step-by-step guide" like way how to setup a Virtual Machine that's able to run CrossFire by using VMWare.  
 
-## Requirements
+## Before you begin
 
-Make sure you have downloaded and installed all required programs and files.
+Make sure you have downloaded and installed all required programs and files.  
 
-- VMWare Workstation Pro (Tested with Pro 15 Trial)
-- Windows 7 ISO (Tested with Home Basic/Home Premium)
+- VMWare Workstation Pro (Tested with Pro 15; other Versions should work, too)
+- Windows 7 ISO (Tested with Home Basic/Home Premium; other Versions should work, too)
+- CrossFire Client as ZIP (optional; you can also download the client on the VM)
 
-## Instructions
+!!! tip
+    You don't need a full version of VMWare Workstation Pro for this to work.  
+    There's a 30 day trial which more than enough to get you started.  
 
-The instructions are splitted into separate parts for easier separation.
+## Let's begin
 
-- [VMWare Windows Installation](./vmware_windows_installation_instructions.md) (Easy Install / Manual)
-- [Virtual Machine Configuration and Registry Patch](./virtual_machine_configuration_instructions.md)
-- [AFK Bot & Auto-Start Setup Instructions](./afk_bot_auto_ready_setup_instructions.md)
+From now on you can simply guide through the whole process by using the arrow navigation on the bottom of this documentation.  
+If you're just here for a quick look-up you can use the navigation tree on the left side to navigate to your desired topic.  
+
+Please make sure you've read the `DISCLAIMER` and `LEGAL NOTES` before proceeding.  
+This procedure, including the setup & configuration of the virtual machine is nothing illegal or forbidden, but everything you're doing, **you're doing it at your own risk!** 
+
