@@ -3,7 +3,7 @@
 site_name: CrossFire West & VMWare
 site_description: Setup instructions to run CrossFire West on a Virtual Machine using VMWare.
 site_author: Patrick Jung
-site_url: 'https://pddstudio.github.com/vmware-crossfire-patch'
+site_url: 'https://pddstudio.github.io/vmware-crossfire-patch'
 
 repo_name: 'vmware-crossfire-patch'
 repo_url: 'https://github.com/pddstudio/vmware-crossfire-patch'
