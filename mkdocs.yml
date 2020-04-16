@@ -21,15 +21,16 @@ theme:
   palette:
     primary: 'green'
     accent: 'green'
-#   icon:
-#     logo: 'material/description'
+  icon:
+    logo: material/description
+    repo: fontawesome/brands/github-alt
 
-# extra:
-#   social:
-#     - icon: 'fontawesome/brands/github-alt'
-#       link: 'https://github.com/pddstudio'
-#     - type: 'fontawesome/brands/twitter'
-#       link: 'https://twitter.com/pdds_'
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/pddstudio
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pdds_
 
 # page navigation tree
 nav:
