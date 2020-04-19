@@ -13,6 +13,8 @@ copyright: 'Copyright &copy; 2020 Patrick Jung'
 # confiture build behavior
 docs_dir: pages/
 site_dir: build/
+extra_javascript: 
+  - javascript/expanded-menu.js
 
 # customizing theme & plugins
 theme:
