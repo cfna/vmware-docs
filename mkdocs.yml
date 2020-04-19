@@ -14,7 +14,7 @@ copyright: 'Copyright &copy; 2020 Patrick Jung'
 docs_dir: pages/
 site_dir: build/
 extra_javascript: 
-  - javascript/expanded-menu.js
+  - ../js/extra.js
 
 # customizing theme & plugins
 theme:
