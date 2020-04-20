@@ -12,7 +12,7 @@ Make sure you have downloaded and installed all required programs and files.
 
 !!! tip
     You don't need a full version of VMWare Workstation Pro for this to work.  
-    There's a 30 day trial which more than enough to get you started.  
+    There's a 30 day trial which is more than enough to get you started.  
 
 ## Let's begin
 
