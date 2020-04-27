@@ -25,5 +25,8 @@ monitor_control.disable_directexec = "true"
 monitor_control.disable_btmemspace = "true"
 ```
 
+!!! info
+    Credits and special thanks to .Alexander (Discord: .Alexander#0374) for providing the proper configuration properties above.
+
 Save the file and close it.  
 You can now power it up again and proceed with the registry patch.  
