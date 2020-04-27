@@ -22,8 +22,16 @@ If you don't enter a license key, Windows is going to run in trial mode.
 Configure the size of the partition you want to give your virtual machine.  
 50 GB per VM is recommended.  
 
+!!! tip
+    You might want to adjust your disk size depending on the amount of CrossFire versions you want to install on a single Virtual Machine.  
+    Each CrossFire Client Takes at least +10GB.
+
 Once you completed these steps, you will see the complete setup in a summary.  
 If you want to adjust your Virtual Machine specs you can do this now.  
 Below is a sample configuration of mine.  
+
+!!! tip
+    Consider switching the Network Adapter to use a Bridget connection instead of NAT.  
+    This avoids getting `Network Connection Errors` in CrossFire as each client gets its own IP-Address.
 
 ![](../img/creating-vm/vm-final-setup-sample.png)
