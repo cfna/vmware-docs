@@ -30,4 +30,8 @@ mkdocs serve
 
 ## License
 
-MIT / CC-BY 4.0
+There's two kind of licenses for this project.  
+
+- Source Code License: [MIT](./LICENSE.md)  
+- Documentation (Text/Images) License: [CC-BY 4.0](./CONTENT_LICENSE.md)
+
