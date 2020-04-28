@@ -30,8 +30,8 @@ Once you completed these steps, you will see the complete setup in a summary.
 If you want to adjust your Virtual Machine specs you can do this now.  
 Below is a sample configuration of mine.  
 
+![](../../img/creating-vm/vm-final-setup-sample.png)  
+
 !!! tip
     Consider switching the Network Adapter to use a Bridget connection instead of NAT.  
     This avoids getting `Network Connection Errors` in CrossFire as each client gets its own IP-Address.
-
-![](../../img/creating-vm/vm-final-setup-sample.png)
