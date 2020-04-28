@@ -24,7 +24,7 @@ theme:
     primary: 'green'
     accent: 'green'
   icon:
-    #logo: material/description
+    logo: material/desktop-classic
     repo: fontawesome/brands/github-alt
 
 extra:
