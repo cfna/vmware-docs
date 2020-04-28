@@ -28,6 +28,7 @@ theme:
     repo: fontawesome/brands/github-alt
 
 extra:
+  manifest: webapp.manifest
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/pddstudio

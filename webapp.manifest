@@ -1,0 +1,9 @@
+{
+    "short_name": "CF:VM Docs",
+    "name": "CrossFire: VMWare Documentation",
+    "description": "Documentation about running CrossFire on Virtual Machines",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#43a047",
+    "theme_color": "#43a047"
+}
