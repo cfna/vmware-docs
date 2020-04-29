@@ -11,7 +11,7 @@
 - [Auto Keyboard Evolution Auto Clicker](http://www.tucows.com/preview/1583989/Autoclicker-Auto-Keybot-Evolution) on your Virtual Machine
 - CrossFire started in Window Mode
 
-## Configuration
+## Setup Instructions (Text)
 
 !!! info
     You must start the auto clicker as Administrator
@@ -40,3 +40,10 @@ Now add a second entry, replace `{M1}` with `{Enter}` and change the coordinates
 Below you can find a sample configuration of how it can look like.
 
 ![](../../img/cf-bot/autokey-final-config.png)
+
+Once you're done configuring you can start the bot by pressing `F1`.  
+That's it. Your cow should be good to go.  
+
+## Setup Instructions (Video)
+
+> TODO: Video is coming soon...
