@@ -13,6 +13,8 @@ If your Virtual Machine is still powered on, make sure to turn it off before edi
 Find your Virtual Machines's Configuration file.  
 The config file is located inside the directory you selected when setting up the Virtual Machine and is called `{YourVMName}.vmx`.  
 
+![](../../img/update-vm/edit-vmx-demo.png)
+
 Open the config file with any editor of your choice and append the following lines:
 
 ```
@@ -27,6 +29,8 @@ monitor_control.disable_btmemspace = "true"
 
 !!! info
     Credits and special thanks to .Alexander (Discord: .Alexander#0374) for providing the proper configuration properties above.
+
+![](../../img/update-vm/add-config-properties.png)
 
 Save the file and close it.  
 You can now power it up again and proceed with the registry patch.  
