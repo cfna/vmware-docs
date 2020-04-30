@@ -1,8 +1,5 @@
 # Patching the Windows Registry
 
-!!! tip
-    Here you can find a [video demonstration](https://www.youtube.com/watch?v=HsFENx_ewGo) of how to apply the registry patch & watch its results.  
-
 If you try to start CrossFire on your Virtual Machine you will get an error similar to this:
 
 ```
@@ -10,6 +7,9 @@ Sorry, this application cannot run under a Virtual Machine
 ```
 
 In order to get rid of this error, you'll have to patch some entries in your Virtual Machines's Registry.  
+
+!!! tip
+    Here you can find a [video demonstration](https://www.youtube.com/watch?v=HsFENx_ewGo) of how to apply the registry patch & watch its results.  
 
 ## Create/Download Registry Patch
 
