@@ -24,8 +24,8 @@ theme:
     primary: 'green'
     accent: 'green'
   icon:
-    logo: material/desktop-classic
-    repo: fontawesome/brands/github-alt
+    logo: material/book-open-variant
+    repo: material/git
 
 extra:
   manifest: webapp.manifest
