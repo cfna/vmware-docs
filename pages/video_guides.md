@@ -2,7 +2,7 @@
 
 > Here you can find various video guides for this documentation.  
 
-## VMWare Setup Instructions (Full Gudie)
+## VMWare Setup Instructions (Full Guide)
 
 It shows you how to get your Virtual Machine up and running, configure it properly and finally run CrossFire on it.  
 The video will guide you through everything you can read in this documentation but might also give you some small tips to improve your workflow.  
