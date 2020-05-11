@@ -2,13 +2,13 @@
 
 site_name: CrossFire West & VMWare
 site_description: Setup instructions to run CrossFire West on a Virtual Machine using VMWare.
-site_author: PDDStudio & cfna Contributors
+site_author: PDDStudio & Contributors
 site_url: 'https://cfna.github.io/vmware-docs'
 
 repo_name: 'vmware-docs'
 repo_url: 'https://github.com/cfna/vmware-docs'
 
-copyright: 'Copyright &copy; 2020 PDDStudio & cfna Contributors'
+copyright: 'Copyright &copy; 2020 PDDStudio & Contributors'
 
 # confiture build behavior
 docs_dir: pages/
