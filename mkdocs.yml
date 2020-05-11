@@ -2,13 +2,13 @@
 
 site_name: CrossFire West & VMWare
 site_description: Setup instructions to run CrossFire West on a Virtual Machine using VMWare.
-site_author: Patrick Jung
-site_url: 'https://pddstudio.github.io/vmware-crossfire-patch'
+site_author: PDDStudio & cfna Contributors
+site_url: 'https://cfna.github.io/vmware-docs'
 
-repo_name: 'vmware-crossfire-patch'
-repo_url: 'https://github.com/pddstudio/vmware-crossfire-patch'
+repo_name: 'vmware-docs'
+repo_url: 'https://github.com/cfna/vmware-docs'
 
-copyright: 'Copyright &copy; 2020 Patrick Jung'
+copyright: 'Copyright &copy; 2020 PDDStudio & cfna Contributors'
 
 # confiture build behavior
 docs_dir: pages/
@@ -31,9 +31,7 @@ extra:
   manifest: webapp.manifest
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/pddstudio
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/pdds_
+      link: https://github.com/cfna
 
 # page navigation tree
 nav:
