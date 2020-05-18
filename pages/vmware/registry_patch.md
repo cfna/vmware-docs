@@ -18,7 +18,7 @@ Below you can follow the instructions for your desired way to do so.
 
 ## Download the Registry Patch
 
-Download the [registry-patch-cf.reg](https://github.com/PDDStudio/vmware-crossfire-patch/blob/master/patches/registry-patch-cf.reg) and save it to your Virtual Machine.
+Download the [registry-patch-cf.reg](https://github.com/cfna/vmware-docs/blob/master/patches/registry-patch-cf.reg) and save it to your Virtual Machine.
 This registry patch contains some required values which need to be changed in order to bypass security checks.  
 
 Once you have the file on your Virtual Machine, simply double-click to execute it.  
