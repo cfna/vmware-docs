@@ -1,4 +1,4 @@
-# CrossFire West & VMWare Documentation
+# CrossFire & VMWare Documentation
 
 Welcome to the CrossFire & VMWare Documentation.  
 Please make sure to read the disclaimer / legal notes below before you proceed.  

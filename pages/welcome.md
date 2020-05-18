@@ -1,4 +1,4 @@
-# CrossFire West VMWare Setup Instructions
+# CrossFire & VMWare Setup Instructions
 
 This documentation shows in a "step-by-step guide" like way how to setup a Virtual Machine that's able to run CrossFire by using VMWare.  
 
