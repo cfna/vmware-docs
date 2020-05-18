@@ -11,19 +11,16 @@ Download and install the program. Once you've VMWare Workstation installed, you 
 
 ## Downloading Windows 7 ISO
 
-!!! tip
-    When downloading Windows 7 ISO, make sure you're downloading a 64 Bit Version.
-
 In this guide the Virtual Machines will be using Windows 7.  
 This will work pretty well with CrossFire even in 2020.  
 
 If you still own a Windows 7 Key, you can download Windows 7 from [Microsoft's Website](https://www.microsoft.com/en-us/software-download/windows7).  
 
 If you don't own a Key, you can download a free Windows 7 90 Days Trial from the Internet.  
-You can use a search engine of your choice to find a ISO.
+You can use a search engine of your choice to find an ISO.
 
 !!! note
-    Tested with Windows 7 Home Premium/Home Basic, but it shouldn't matter which version of Windows you're running.  
+    You can find a list of tested/supported versions [here](../supported_versions)  
 
 ## Preparing CrossFire Client
 
