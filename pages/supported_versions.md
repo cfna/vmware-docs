@@ -6,19 +6,19 @@ This page is a collection of supported/working versions of the programs & tools 
 
 Supported/Tested versions of VMWare Workstation:
 
-- VMWare Workstation Pro 15
+- VMWare Workstation Pro 15 (64 Bit)
+- VMWare Workstation 9.0 (32 Bit)
 
-## Windows 7
+## Windows
 
-Tested versions of Windows 7:
+Tested versions of Windows:
 
-- Windows 7 Home Premium (64 bit)
-- Windows 7 Home Basic (64 bit)
+- Windows 7 (64 Bit)
+- Windows 7 (32 Bit)
 
-!!! tip
-    This list contains only versions which I tested myself.  
-    Generally speaking it should work with any Windows 7 Version.  
-    There might also be later Windows versions which are also supported.
+!!! info
+    It should not matter which Version of Windows 7 you're running.  
+    Home Premium and Home Basic have been tested, however every version should work.  
 
 ## CrossFire Clients
 
