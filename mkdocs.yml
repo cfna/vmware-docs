@@ -1,7 +1,7 @@
 # general information
 
-site_name: CrossFire West & VMWare
-site_description: Setup instructions to run CrossFire West on a Virtual Machine using VMWare.
+site_name: CrossFire & VMWare
+site_description: Setup instructions to run CrossFire on a Virtual Machine using VMWare.
 site_author: PDDStudio & Contributors
 site_url: 'https://cfna.github.io/vmware-docs'
 
