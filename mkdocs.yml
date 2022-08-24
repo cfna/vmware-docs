@@ -35,6 +35,10 @@ nav:
   - Home: index.md
   - Welcome: welcome.md
   - Getting Started: getting_started.md
+  - VMWare Guides Update 2022:
+    - Creating a Virtual Machine: vmware-2022/creating_virtual_machine.md
+    - Updating Virtual Machine Config: vmware-2022/vm_configuration.md
+    - Registry Patch & VMWare Hardened Loader: vmware-2022/vmhl_configuration.md
   - VMWare Guides:
     - Creating a Virtual Machine: vmware/creating_virtual_machine.md
     - Updating Virtual Machine Config: vmware/vm_configuration.md

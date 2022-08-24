@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000]
+"DriverDesc"=""
+ 
+[HKEY_LOCAL_MACHINE\Hardware\description\System]
+"SystemBiosVersion"=""
+"VideoBiosVersion"=""
+ 
+[-HKEY_LOCAL_MACHINE\HARDWARE\ACPI\DSDT\VBOX__]
