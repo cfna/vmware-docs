@@ -12,21 +12,21 @@
         <meta name="author" content="PDDStudio & Contributors">
       
       
-        <link rel="canonical" href="https://cfna.github.io/vmware-docs/supported_versions/">
+        <link rel="canonical" href="https://cfna.github.io/vmware-docs/vmware-2022/registry_patch/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.2.11">
     
     
       
-        <title>Tested Versions - CrossFire & VMWare</title>
+        <title>Windows Registry Patch for Virtual Machines - CrossFire & VMWare</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
         
           
           
@@ -45,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#supported-versions" class="md-skip">
+        <a href="#patching-the-registry" class="md-skip">
           Skip to content
         </a>
       
@@ -83,7 +83,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="CrossFire &amp; VMWare" class="md-header__button md-logo" aria-label="CrossFire & VMWare" data-md-component="logo">
+    <a href="../.." title="CrossFire &amp; VMWare" class="md-header__button md-logo" aria-label="CrossFire & VMWare" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5Z"/></svg>
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tested Versions
+              Windows Registry Patch for Virtual Machines
             
           </span>
         </div>
@@ -169,7 +169,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="CrossFire &amp; VMWare" class="md-nav__button md-logo" aria-label="CrossFire & VMWare" data-md-component="logo">
+    <a href="../.." title="CrossFire &amp; VMWare" class="md-nav__button md-logo" aria-label="CrossFire & VMWare" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5Z"/></svg>
@@ -188,7 +188,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -203,7 +203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../welcome/" class="md-nav__link">
+      <a href="../../welcome/" class="md-nav__link">
         Welcome
       </a>
     </li>
@@ -218,7 +218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/" class="md-nav__link">
+      <a href="../../getting_started/" class="md-nav__link">
         Getting Started
       </a>
     </li>
@@ -231,12 +231,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -259,7 +261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vmware-2022/creating_virtual_machine/" class="md-nav__link">
+      <a href="../creating_virtual_machine/" class="md-nav__link">
         Creating a Virtual Machine
       </a>
     </li>
@@ -273,7 +275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vmware-2022/vm_configuration/" class="md-nav__link">
+      <a href="../vm_configuration/" class="md-nav__link">
         Updating Virtual Machine Config
       </a>
     </li>
@@ -285,11 +287,66 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../vmware-2022/registry_patch/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Windows Registry Patch for Virtual Machines
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Windows Registry Patch for Virtual Machines
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#createdownload-registry-patch" class="md-nav__link">
+    Create/Download Registry Patch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#download-the-registry-patch" class="md-nav__link">
+    Download the Registry Patch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-registry-patch-manually" class="md-nav__link">
+    Create the Registry Patch manually
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -301,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vmware-2022/vmhl_configuration/" class="md-nav__link">
+      <a href="../vmhl_configuration/" class="md-nav__link">
         Install & Setup VMWareHardenedLoader
       </a>
     </li>
@@ -349,7 +406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../crossfire/vm_afk_bot_instructions/" class="md-nav__link">
+      <a href="../../crossfire/vm_afk_bot_instructions/" class="md-nav__link">
         AFK Bot & Auto Ready Setup Instructions
       </a>
     </li>
@@ -371,7 +428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../video_guides/" class="md-nav__link">
+      <a href="../../video_guides/" class="md-nav__link">
         Video Guides
       </a>
     </li>
@@ -384,66 +441,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Tested Versions
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../supported_versions/" class="md-nav__link">
         Tested Versions
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#vmware-workstation" class="md-nav__link">
-    VMWare Workstation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
-    Windows
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#crossfire-clients" class="md-nav__link">
-    CrossFire Clients
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -475,22 +477,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#vmware-workstation" class="md-nav__link">
-    VMWare Workstation
+  <a href="#createdownload-registry-patch" class="md-nav__link">
+    Create/Download Registry Patch
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
-    Windows
+  <a href="#download-the-registry-patch" class="md-nav__link">
+    Download the Registry Patch
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#crossfire-clients" class="md-nav__link">
-    CrossFire Clients
+  <a href="#create-the-registry-patch-manually" class="md-nav__link">
+    Create the Registry Patch manually
   </a>
   
 </li>
@@ -509,37 +511,55 @@
                 
 
 
-<h1 id="supported-versions">Supported Versions<a class="headerlink" href="#supported-versions" title="Permanent link">&para;</a></h1>
-<p>This page is a collection of supported/working versions of the programs &amp; tools used throughout this documentation.  </p>
+<h1 id="patching-the-registry">Patching the registry<a class="headerlink" href="#patching-the-registry" title="Permanent link">&para;</a></h1>
+<h2 id="createdownload-registry-patch">Create/Download Registry Patch<a class="headerlink" href="#createdownload-registry-patch" title="Permanent link">&para;</a></h2>
+<p>There are two ways you can apply the registry patch. You can either download the already created registry patch file, or create it yourself.<br />
+Below you can follow the instructions for your desired way to do so.</p>
+<h2 id="download-the-registry-patch">Download the Registry Patch<a class="headerlink" href="#download-the-registry-patch" title="Permanent link">&para;</a></h2>
+<p>Download the <a href="https://github.com/cfna/vmware-docs/blob/master/patches/registry-patch-cf-2022.reg">registry-patch-cf-2022.reg</a> and save it to your Virtual Machine.
+This registry patch contains some required values which need to be changed in order to bypass security checks.  </p>
+<p>Once you have the file on your Virtual Machine, simply double-click to execute it.<br />
+You will see an information and get asked if you want to continue, press <code>Yes</code> to apply the registry patch.  </p>
+<p><img alt="" src="../../img/registry-patch/registry-editor-warning.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Usually you should be prompted by the Windows System to execute the registry patch as admin.<br />
+However, if not, try right click and select <code>Run as Administrator</code>.  </p>
+</div>
+<p>Once the changes applied successfully you're good to go.  </p>
+<p><img alt="" src="../../img/registry-patch/registry-editor-import-success.png" /></p>
+<h2 id="create-the-registry-patch-manually">Create the Registry Patch manually<a class="headerlink" href="#create-the-registry-patch-manually" title="Permanent link">&para;</a></h2>
+<p>On your Virtual Machine, create a new text document and open it in Notepad.<br />
+Paste the following content into the file:</p>
+<div class="codehilite"><pre><span></span><code>Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000]
+&quot;DriverDesc&quot;=&quot;&quot;
+
+[HKEY_LOCAL_MACHINE\Hardware\description\System]
+&quot;SystemBiosVersion&quot;=&quot;&quot;
+&quot;VideoBiosVersion&quot;=&quot;&quot;
+
+[-HKEY_LOCAL_MACHINE\HARDWARE\ACPI\DSDT\VBOX__]
+</code></pre></div>
+
+<p>Now select <code>File -&gt; Save As</code> and name your file <code>registry-patch-cf.reg</code>.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>This status page is contineously updated and may change at any time.<br />
-However, feel free to also test using unlisted versions and help improve this status page. </p>
+<p>When saving the file, make sure to select <code>Save as type:</code> to use <code>All Files</code>.<br />
+Otherwise you will not be able to execute the registry patch.</p>
 </div>
-<h2 id="vmware-workstation">VMWare Workstation<a class="headerlink" href="#vmware-workstation" title="Permanent link">&para;</a></h2>
-<p>Supported/Tested versions of VMWare Workstation:</p>
-<ul>
-<li>VMWare Workstation Pro 15 (64 Bit)</li>
-</ul>
-<h2 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h2>
-<p>Tested versions of Windows:</p>
-<ul>
-<li>Windows 7 (64 Bit)</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>It should not matter which Version of Windows 7 you're running as long as it is 64 Bit.<br />
-Home Premium and Home Basic have been tested, however every version should work.  </p>
+<p><img alt="" src="../../img/vmhl/setup-registry-patch.png" />  </p>
+<p>That's it. Now you can close your editor and search for the <code>registry-patch-cf.reg</code> file you just created and double-click to execute it.<br />
+You will see an information and get asked if you want to continue, press <code>Yes</code> to apply the registry patch.  </p>
+<p><img alt="" src="../../img/registry-patch/registry-editor-warning.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Usually you should be prompted by the Windows System to execute the registry patch as admin.<br />
+However, if not, try right click and select <code>Run as Administrator</code>.  </p>
 </div>
-<h2 id="crossfire-clients">CrossFire Clients<a class="headerlink" href="#crossfire-clients" title="Permanent link">&para;</a></h2>
-<ul>
-<li>CrossFire West</li>
-<li>CrossFire Philipines</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Tested on an unlisted version? Feel free to report back so this collection can be extended.</p>
-</div>
+<p>Once the changes applied successfully you're good to go.  </p>
+<p><img alt="" src="../../img/registry-patch/registry-editor-import-success.png" /></p>
 
               
             </article>
@@ -553,7 +573,7 @@ Home Premium and Home Basic have been tested, however every version should work.
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../video_guides/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Video Guides" rel="prev">
+        <a href="../vm_configuration/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Updating Virtual Machine Config" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -562,11 +582,26 @@ Home Premium and Home Basic have been tested, however every version should work.
               <span class="md-footer__direction">
                 Previous
               </span>
-              Video Guides
+              Updating Virtual Machine Config
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../vmhl_configuration/" class="md-footer__link md-footer__link--next" aria-label="Next: Install &amp; Setup VMWareHardenedLoader" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Install & Setup VMWareHardenedLoader
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
@@ -607,12 +642,12 @@ Home Premium and Home Basic have been tested, however every version should work.
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
       
-        <script src="../js/extra.js"></script>
+        <script src="../../js/extra.js"></script>
       
     
   </body>
